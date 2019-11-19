@@ -1,0 +1,26 @@
+.navbar{
+    margin-top: 0;
+    color: #ffffff;
+}
+.navbar-brand{
+    background-color: purple;
+    padding: 15px 15px 15px 15px;
+    margin: 0 0 0 24rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: ivory;
+}
+
+.navbar-item{
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-nav{
+    margin-right: 24rem;
+}
+
+.nav-link{
+    color: purple;
+
+}
