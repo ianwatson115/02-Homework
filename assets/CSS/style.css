@@ -5,7 +5,7 @@
 .navbar-brand{
     background-color: purple;
     padding: 15px 15px 15px 15px;
-    margin: 0 0 0 24rem;
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     color: ivory;
@@ -16,11 +16,42 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navbar-nav{
-    margin-right: 24rem;
-}
+
 
 .nav-link{
     color: purple;
+
+}
+
+
+
+
+@media (min-width: 576px) and (orientation: portrait) {
+    .navbar-nav{
+        
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    
+}
+
+
+@media  (min-width: 1200px) {
+    .navbar-brand {
+        margin: 0 0 0 24rem;
+    }
+
+    .navbar-nav{
+        margin-right: 24rem;
+    }
+
+    
 
 }
