@@ -1,5 +1,8 @@
 body {
     background-image: url('../images/triangle-mosaic.png');
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
 }
 .navbar {
     margin-top: 0;
@@ -64,6 +67,10 @@ h1 {
 footer {
     border-top: 4px solid rgb(87, 0, 128);
     background-color: #777777;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
 }
 
 @media (max-width: 640px) {
