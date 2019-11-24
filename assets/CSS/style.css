@@ -1,57 +1,99 @@
-.navbar{
+body {
+    background-image: url('../images/triangle-mosaic.png');
+}
+.navbar {
     margin-top: 0;
     color: #ffffff;
 }
-.navbar-brand{
-    background-color: purple;
+.navbar-brand {
+    background-color: rgb(87, 0, 128);
     padding: 15px 15px 15px 15px;
-    
+    text-align: center;
+    margin: 0 0 0 16rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     color: ivory;
 }
 
+.navbar-nav {
+    margin-right: 16rem;
+}
+
 .navbar-item{
-    color: blueviolet;
+    color: rgb(87, 0, 128);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 
 .nav-link{
-    color: purple;
+    color: rgb(87, 0, 128);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
+ul > li:not(:last-child) {
+    border-right: 1px double rgb(87, 0, 128);
+}
+
+.container {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(87, 0, 128);
+    font-size: 30px;
+    padding: 1rem 0 1rem 1rem;
+}
 
 
+.img-left {
+    float: left;
+    width: 300px;
+    padding: 0 1rem 0 0;
+}
 
-@media (min-width: 576px) and (orientation: portrait) {
-    .navbar-nav{
+.text-gray {
+    float: right;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+footer {
+    border-top: 4px solid rgb(87, 0, 128);
+    background-color: #777777;
+}
+
+@media (max-width: 640px) {
+    .navbar-brand{
+        width: 100%;
+        margin: 0 0 0 0;
+        border: 0;
         
     }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    
-}
-
-
-@media  (min-width: 1200px) {
-    .navbar-brand {
-        margin: 0 0 0 24rem;
-    }
-
     .navbar-nav{
-        margin-right: 24rem;
+        float: none;
+        width: 100%;
+        
     }
-
     
 
 }
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 996px) {
+    .navbar-brand{
+        margin-left: 0;
+    }
+    .navbar-nav{
+        margin-right: 0;
+    }
+
+}
+
