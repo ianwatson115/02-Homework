@@ -1,5 +1,6 @@
 .container {
     margin-right: 60rem;
+    height: 1080px;
 }
 
 .card-img-overlay {
@@ -13,4 +14,16 @@
 .card-img {
     width: 300px;
     height: 250px;
+}
+
+.card {
+    margin: 10px auto 35px;
+}
+
+
+
+@media (max-width: 768px) {
+    .card {
+        float: left;
+    }
 }
