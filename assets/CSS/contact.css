@@ -1,0 +1,11 @@
+.container-fluid {
+    margin-top: 5rem;
+}
+.form-group{
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+.btn-submit{
+    margin-left: 20rem;
+    background-color:rgb(87, 0, 128);
+}
